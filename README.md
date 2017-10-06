@@ -7,17 +7,13 @@ Lightweight starter WP with SCSS + SCMACSS/ES6/Gulp/Bootstrap (or Foundation).
 
 Extra features:
 
-Owl Carousel. The best slider imo. Linghtweight and good looking when animated.
+* Owl Carousel JS. The best slider imo: Lightweight and good looking when animated.
 
 ## Installation
 
-Unzip the file in your wp-content/themes/
+Unzip the file in `/wp-content/themes`
 
 ### Gulp Installation
-
-### Install Sass
-
-Go to [sass-lang.com/install](http://sass-lang.com/install) for installation in command line.
 
 ## Gulp Tasks
 
@@ -47,3 +43,12 @@ Accepted file formats : - jpg - png - gif - svg
 ### Working with Fonts
 
 The font files are located in `/fonts`
+
+### Working with Icones
+
+The font files are located in `/icons`
+
+### Working with Favicons
+
+Multiples size available, favicons for desktop and mobiles
+The font files are located in `/icons`
