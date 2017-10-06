@@ -3,15 +3,15 @@
 ## Work in progress
 
 The perfect simple starter theme for me.
-Lightweight starter WP with SCSS + SMACSS/ES6/Gulp/Bootstrap (or Foundation).
+Lightweight starter WP with SCSS+SMACSS/ES6/Gulp/Bootstrap (or Foundation).
 
 Extra features:
 
 * Owl Carousel JS. The best slider imo: lightweight, rich functionalities, and good looking when animated.
 * Some usefull includes, like a good pagination.php for Wordpress.
-* Some functions in functions.php, like thumbnails support, word excerpt limitation
+* Some functions in functions.php, like thumbnails support and words excerpt limitation.
 
-Nothing more. Just the essential.
+Nothing more. Just the indispential (contraction of essential and indispential).
 
 ## Installation
 
@@ -24,7 +24,7 @@ Unzip the file in `/wp-content/themes`
 * Optimise images
 * Optimise and minify scripts with webpack
 * Optimise and minify styles
-* Create font icons
+* Can create font icons
 
 ## How the starter works
 
@@ -32,14 +32,14 @@ Unzip the file in `/wp-content/themes`
 
 The SCSS files are located in `/scss`.
 
-SMACSS for practical structuring, easy maintenability and scalabilty of styles
+SMACSS is a method for practical structuring, easy maintenability and scalabilty of Styles
 * Layouts
 * Modules
 
 ### Works with JavaScript
 
-The Javascript files are located in `/js`.
-Add your JS and jQuery functions in `/js/custom-functions.js`
+The JavaScript files are located in `/js`.
+Add your custom JS and jQuery functions in `/js/custom-functions.js`
 
 **You can use the ES6 syntaxe** Babel convert it in ES5 for you via webpack.
 
@@ -58,7 +58,7 @@ The font files are located in `/fonts`
 The font files are located in `/icons`
 You can add .svg icons and than create a font icon using the gulp tasks 'icons'.
 
-### Working with Favicons
+### Working with Favicon
 
-Multiples size available, favicons for desktop and mobiles
-The font files are located in `/icons`
+Multiples favicon sizes prepared for desktop and mobiles
+The favicons files are located in `/favicon`
