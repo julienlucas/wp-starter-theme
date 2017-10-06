@@ -1,0 +1,27 @@
+/* ==|====================
+   Module/Boutons
+   ======================= */
+
+/* Animations */
+.btn, .btn-a:hover {
+  transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;}
+
+/* Boutons */
+.btn {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  min-height: 45px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;
+  border: 0;
+  text-decoration: none;
+  text-transform: uppercase;}
+
+.btn:hover {}
