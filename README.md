@@ -11,7 +11,7 @@ Extra features:
 * Some usefull includes, like a good pagination.php for Wordpress.
 * Some functions in functions.php, like thumbnails support and words excerpt limitation.
 
-Nothing more. Just the indispential (contraction of essential and indispential).
+Nothing more. Just the indissential (contraction of essential and indispential).
 
 ## Installation
 
