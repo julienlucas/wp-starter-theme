@@ -3,7 +3,7 @@
 ## Work in progress
 
 The perfect simple starter theme for me.
-Lightweight starter WP with SCSS + SCMACSS/ES6/Gulp/Bootstrap (or Foundation).
+Lightweight starter WP with SCSS + SMACSS/ES6/Gulp/Bootstrap (or Foundation).
 
 Extra features:
 
