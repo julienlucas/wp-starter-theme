@@ -1,5 +1,5 @@
 /*
- * SMACSS + SCSS + Normalize starter v2.1
+ * SMACSS + SCSS starter v2.1
  * Inspired by SMACSS http://smacss.com
  * Author: @julienlucasjl
  * Author URI: http://www.julienlucas.com
@@ -13,7 +13,7 @@
  * All files, unless otherwise stated, are released under the GNU General Public License
  * version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
  *
- * https://github.com/jonathanpath/SASS-SMACSS
+ * Originaly created by: https://github.com/jonathanpath/SASS-SMACSS
  *
  * Coding rules : https://github.com/necolas/idiomatic-css
  *
@@ -34,6 +34,7 @@
 /* Modules */
 @import "modules/box.scss";
 @import "modules/btn.scss";
+@import "modules/font-icons.scss";
 @import "modules/icons.scss";
 @import "modules/slider.scss";
 @import "modules/toggle.scss";

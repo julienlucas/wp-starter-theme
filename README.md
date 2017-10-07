@@ -17,6 +17,8 @@ Nothing more. Just the indissential (contraction of essential and indispential).
 
 Unzip the file in `/wp-content/themes`
 
+Want to use Bootstrap 3 or 4, or Foundation? Just change the 2 urls of .css and .js file in header.php.
+
 ### Gulp Installation
 
 ## Optimized for production with Gulp Tasks
@@ -29,6 +31,9 @@ Unzip the file in `/wp-content/themes`
 ## How the starter works
 
 ### Works with SCSS + SMACSS
+To organize your Sass project with SMACSS organisation. Inspired by SMACSS from Jonathan Snook. To know more, go to : http://smacss.com
+
+You can use it with any framework like Bootstrap or Foundation.
 
 The SCSS files are located in `/scss`.
 
