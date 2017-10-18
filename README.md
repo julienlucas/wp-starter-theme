@@ -17,13 +17,13 @@ Unzip the file in `/wp-content/themes`
 
 Want to use Bootstrap 3 or 4, or Foundation? Just change the 2 urls of .css and .js file in header.php.
 
-### Optimized for production with Gulp Tasks
+## Optimized for production with Gulp Tasks
 
 * Optimise and recompress images
 * Optimise and minify JS and SCSS scripts
 * Can create font icons
 
-## Gulp Installation
+### Gulp Installation
 
 We begin by installing Gulp in global mode with -g.
 
