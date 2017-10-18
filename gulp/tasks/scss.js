@@ -31,7 +31,7 @@ const minifyConfig = {
 
 if (util.env.production) {
     minifyConfig.discardComments = {
-        removeAll: true
+        removeAll: false
     };
 }
 
@@ -43,7 +43,7 @@ gulp.task('scss', () => {
           outputStyle: 'compressed'
         }).on('error', sass.logError))
         .pipe(autoprefixer())
-        .pipe(concat('styles.css'))
+        .pipe(concat('style.css'))
         .pipe(minifycss(minifyConfig))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest(SCSS_DST))

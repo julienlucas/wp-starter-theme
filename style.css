@@ -1,0 +1,19 @@
+/*
+ * SMACSS + SCSS starter v2.1
+ * Inspired by SMACSS http://smacss.com
+ * Author: Augural Strateo
+ * Date: 6 October 2017
+ *
+ * Theme Name:
+ * Description:
+ * License: GNU General Public License version 3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Version: 1.0.0
+ * All files, unless otherwise stated, are released under the GNU General Public License
+ * version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+ *
+ * Coding rules : https://github.com/necolas/idiomatic-css
+ *
+ */
+*{box-sizing:border-box}.btn,.btn-a:hover{transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out}.btn{position:relative;margin:0 auto;display:block;width:100%;min-height:45px;text-align:center;padding:20px;border-radius:25px;border:0;text-decoration:none;text-transform:uppercase}
+/*# sourceMappingURL=style.css.map */

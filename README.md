@@ -1,9 +1,7 @@
 # Wordpress Starter Theme
 
-## Work in progress
-
-The perfect simple starter theme for me.
-Lightweight starter WP with SCSS+SMACSS/ES6/Gulp/Bootstrap (or Foundation).
+The perfect Wordpress starter theme for me.
+Lightweight, with SCSS+SMACSS/ES6/Gulp/Bootstrap (or Foundation).
 
 Extra features:
 
@@ -11,7 +9,7 @@ Extra features:
 * Some usefull includes, like a good pagination.php for Wordpress.
 * Some functions in functions.php, like thumbnails support and words excerpt limitation.
 
-Nothing more. Just the indissential (contraction of essential and indispential).
+Nothing more. Just the indissential (contraction of essential and indispensable).
 
 ## Installation
 
@@ -19,14 +17,21 @@ Unzip the file in `/wp-content/themes`
 
 Want to use Bootstrap 3 or 4, or Foundation? Just change the 2 urls of .css and .js file in header.php.
 
-### Gulp Installation
+### Optimized for production with Gulp Tasks
 
-## Optimized for production with Gulp Tasks
-
-* Optimise images
-* Optimise and minify scripts with webpack
-* Optimise and minify styles
+* Optimise and recompress images
+* Optimise and minify JS and SCSS scripts
 * Can create font icons
+
+## Gulp Installation
+
+We begin by installing Gulp in global mode with -g.
+
+`npm install -g gulp`
+
+To check if everything is installed and Gulp is active:
+
+`gulp -v`
 
 ## How the starter works
 

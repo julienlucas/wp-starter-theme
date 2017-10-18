@@ -17,7 +17,7 @@
 	<meta name="google-site-verification" content="" />
 	<meta name="language" content="fr"/>
 	<meta name="keywords" content="" />
-  <meta name="description" content="" />
+    <meta name="description" content="" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="shortcut icon" type="image/png" href="/favicons/"/>
 	<link rel="icon" type="image/png" href="/favicon/"/>
