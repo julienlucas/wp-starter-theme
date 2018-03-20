@@ -4,10 +4,10 @@ Template Name: Accueil
 */
 get_header(); ?>
 
-<div class="wrapper" id="wrapper-home">
+<div class="wrapper" id="wrapper-acceuil">
 
-	<div class="l-container">
-  </div><!-- Container end -->
+	<main class="accueil">
+  </main><!-- Container end -->
 
 </div><!-- Wrapper end -->
 

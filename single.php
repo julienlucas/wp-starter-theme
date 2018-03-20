@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <?php while(have_posts()) : the_post(); ?>
-<div class="wrapper" id="single-wrapper">
+<div class="wrapper" id="wrapper-single">
 
-	<div class="l-container">
-	</div><!-- Container end -->
+	<main class="single">
+  </main><!-- Container end -->
 
 </div><!-- Wrapper end -->
 <?php endwhile; ?>

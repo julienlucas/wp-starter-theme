@@ -1,0 +1,36 @@
+ul.pagination {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  display: table;
+  font: 16px/20px;
+  li {
+    font: 17px;
+    & a {
+      border: 1px solid #dedede;
+      margin: 3px;
+      border-radius: 3px;
+      transition: all 0.2s ease-in-out;
+    }
+    & a:hover {
+      opacity: 0.7;
+      transition: all 0.2s ease-in-out;
+    }
+    li a.prev, li a.next {
+      font: 16px/20px;
+    }
+  }
+  li span.current {
+    border: 1px solid transparent;
+    margin: 3px;
+    border-radius: 3px;
+  }
+  ul.pagination li.current a, ul.pagination li a {
+    position: relative;
+    text-align: center;
+  }
+  ul.pagination li span.current:hover {
+    border: 1px solid #dedede;
+    transition: all 0.2s ease-in-out;
+  }
+}

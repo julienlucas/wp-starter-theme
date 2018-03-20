@@ -1,10 +1,12 @@
 <?php get_header(); ?>
 
-<div class="wrapper" id="single-wrapper">
+<?php while(have_posts()) : the_post(); ?>
+<div class="wrapper" id="wrapper-page">
 
-	<div class="l-container">
-	</div><!-- Container end -->
+	<main class="page">
+  </main><!-- Container end -->
 
 </div><!-- Wrapper end -->
+<?php endwhile; ?>
 
 <?php get_footer(); ?>

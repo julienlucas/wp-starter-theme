@@ -1,9 +1,9 @@
-<?php get_header();?>
+<?php get_header(); ?>
 
 <div class="wrapper" id="wrapper-404">
 
-	<div class="l-container">
-  </div><!-- Container end -->
+	<main class="404">
+  </main><!-- Container end -->
 
 </div><!-- Wrapper end -->
 

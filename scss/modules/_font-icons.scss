@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "font-icons";
+	src: url('./font-icons.eot');
+	src: url('./font-icons.eot?#iefix') format('eot'),
+		url('./font-icons.woff2') format('woff2'),
+		url('./font-icons.woff') format('woff'),
+		url('./font-icons.ttf') format('truetype'),
+		url('./font-icons.svg#font-icons') format('svg');
+}
+
+.icon:before {
+	font-family: "font-icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-facebook:before {
+	content: "\E001";
+}
+
+.icon-googleplus:before {
+	content: "\E002";
+}
+
+.icon-instagram:before {
+	content: "\E003";
+}
+
+.icon-linkedin:before {
+	content: "\E004";
+}
+
+.icon-pinterest:before {
+	content: "\E005";
+}
+
+.icon-twitter:before {
+	content: "\E006";
+}
+
+.icon-viadeo:before {
+	content: "\E007";
+}
+
+.icon-vine:before {
+	content: "\E008";
+}
+
+.icon-youtube:before {
+	content: "\E009";
+}

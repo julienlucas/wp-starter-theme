@@ -1,22 +1,16 @@
 <?php get_header(); ?>
 
-<div class="wrapper" id="search-wrapper">
+<div class="wrapper" id="wrapper-search">
 
-	<div class="l-container">
-
+	<main class="search">
+		
 		<?php if ( have_posts() ) : ?>
 
-					<h1 class="page-title"><?php printf(
-					 esc_html__( 'Search Results for: %s'),
-						'<span>' . get_search_query() . '</span>' ); ?></h1>
-
-			<?php while ( have_posts() ) : the_post(); ?>
-			<?php endwhile; ?>
-
 		<?php else : ?>
+			Aucun bien n'a été trouvé. Réessayez avec d'autres critères
 		<?php endif; ?>
 
-	</div><!-- Container end -->
+	</main><!-- Container end -->
 
 </div><!-- Wrapper end -->
 
