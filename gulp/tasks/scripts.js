@@ -8,12 +8,14 @@ const plumber = require('gulp-plumber');
 const sourcemaps = require('gulp-sourcemaps');
 const babel = require('gulp-babel');
 
-const SCRIPTS_SRC = 'js/custom-scripts.js';
+const SCRIPTS_SRC_HEADER = 'js/custom-header-scripts.js';
+const SCRIPTS_SRC_FOOTER = 'js/custom-footer-scripts.js';
 const SCRIPTS_DST = 'js/';
 
 // Scripts
 gulp.task('scripts', function () {
-	return gulp.src(SCRIPTS_SRC)
+	// pour JS header
+	return gulp.src(SCRIPTS_SRC_HEADER)
 		.pipe(plumber(function (err) {
 			console.log('Scripts Task Error');
 			console.log(err);
@@ -25,7 +27,23 @@ gulp.task('scripts', function () {
 		}))
 		.pipe(uglify())
 		.pipe(sourcemaps.write())
-		.pipe(rename('custom-scripts.min.css'))
+		.pipe(rename('custom-header-scripts.min.js'))
+		.pipe(gulp.dest(SCRIPTS_DST));
+
+	// pour JS footer
+	return gulp.src(SCRIPTS_SRC_FOOTER)
+		.pipe(plumber(function (err) {
+			console.log('Scripts Task Error');
+			console.log(err);
+			this.emit('end');
+		}))
+		.pipe(sourcemaps.init())
+		.pipe(babel({
+			presets: ['es2015']
+		}))
+		.pipe(uglify())
+		.pipe(sourcemaps.write())
+		.pipe(rename('custom-footer-scripts.min.js'))
 		.pipe(gulp.dest(SCRIPTS_DST));
 });
 

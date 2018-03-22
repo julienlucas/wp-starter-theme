@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_url')."/css/normalize.css"; ?>" media="screen" />
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_url')."/style.css"; ?>" media="screen" />
-	<script src="<?php echo get_bloginfo('template_url');?>/js/custom-header-scripts.js" /></script>
+	<script src="<?php echo get_bloginfo('template_url');?>/js/custom-header-scripts.min.js" /></script>
 	<?php wp_head(); ?>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

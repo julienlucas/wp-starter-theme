@@ -1,6 +1,6 @@
 /*
  * SMACSS + SCSS starter v2.1
- * Inspired by SMACSS http://smacss.com
+ * Inspired by SMACSS http://smacss.com and https://github.com/jonathanpath/SASS-SMACSS
  * Author: @julienlucasjl
  * Author URI: http://www.julienlucas.com
  * Date: 6 October 2017
@@ -12,8 +12,6 @@
  * Version: 1.0.0
  * All files, unless otherwise stated, are released under the GNU General Public License
  * version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
- *
- * Originaly created by: https://github.com/jonathanpath/SASS-SMACSS
  *
  * Coding rules : https://github.com/necolas/idiomatic-css
  *
@@ -33,6 +31,7 @@
 
 /* Modules */
 @import "modules/box.scss";
+@import "modules/pagination.scss";
 @import "modules/btn.scss";
 @import "modules/icons.scss";
 @import "modules/slider.scss";
