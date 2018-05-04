@@ -9,7 +9,7 @@ const minifycss = require('gulp-cssnano');
 const beep = require('beepbeep');
 const util = require('gulp-util');
 
-const SCSS_SRC = 'scss/style.scss';
+const SCSS_SRC = 'scss/**/*.scss';
 const SCSS_DST = '';
 
 const minifyConfig = {
