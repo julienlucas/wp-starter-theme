@@ -5,7 +5,6 @@ Lightweight, with SCSS+SMACSS/ES6/Gulp/Bootstrap (or Foundation).
 
 Extra features:
 
-* Owl Carousel JS. The best slider imo: lightweight, rich functionalities, and good looking when animated.
 * Some usefull includes, like a good pagination.php for Wordpress.
 * Some functions in functions.php, like thumbnails support and words excerpt limitation.
 
