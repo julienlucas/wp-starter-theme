@@ -19,14 +19,14 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-title" content="<?php bloginfo( 'name' ); ?> -  <?php bloginfo( 'description' ); ?>">
 	<meta name="theme-color" content="#23507a">
-	<link rel="shortcut icon" type="image/png" href="<?php bloginfo('template_url'); ?>/favicons/favicon.png"/>
-	<link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/favicon/favicon.png"/>
-	<link rel="apple-touch-icon" sizes="48x48" href="<?php bloginfo('template_url'); ?>/favico/jl-launcher-icon-1x.png">
-	<link rel="apple-touch-icon" sizes="96x96" href="<?php bloginfo('template_url'); ?>/favicon/jl-launcher-icon-2x.png">
-	<link rel="apple-touch-icon" sizes="192x192" href="<?php bloginfo('template_url'); ?>/favicon/jl-launcher-icon-4x.png">
-	<link rel="manifest" href="<?php bloginfo('template_url'); ?>/favicon/manifest.json">
+	<link rel="shortcut icon" type="image/png" href="<?php bloginfo('template_url'); ?>/favicons/favicon-16x16.png"/>
+	<link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/favicons/favicon-16x16.png"/>
+	<link rel="apple-touch-icon" sizes="48x48" href="<?php bloginfo('template_url'); ?>/favicons/icon-48x48.png">
+	<link rel="apple-touch-icon" sizes="96x96" href="<?php bloginfo('template_url'); ?>/favicons/icon-96x96.png">
+	<link rel="apple-touch-icon" sizes="192x192" href="<?php bloginfo('template_url'); ?>/favicons/icon-192x192.png">
+	<link rel="manifest" href="<?php bloginfo('template_url'); ?>/manifest.json">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_url')."/css/normalize.css"; ?>" media="screen" />
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_url')."/style.css"; ?>" media="screen" />
 	<script src="<?php echo get_bloginfo('template_url');?>/js/custom-header-scripts.min.js" /></script>
